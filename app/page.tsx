@@ -3,14 +3,7 @@
 import { signIn } from "next-auth/react";
 
 const RootPage = () => {
-    return (
-        <div>
-            RootPage
-            <button onClick={() => signIn("discord")}>
-                Sign in with Discord
-            </button>
-        </div>
-    );
+    return <div>HI</div>;
 };
 
 export default RootPage;
